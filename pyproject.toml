@@ -1,0 +1,18 @@
+[project]
+name = "extracting-texts-from-pdfs"
+version = "0.1.0"
+description = "This module vastly covers the concepts about extracting data from PDFs using Langchain Framework"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain==0.3.19",
+    "langchain-anthropic==0.3.8",
+    "langchain-community==0.3.18",
+    "langchain-core==0.3.40",
+    "langchain-experimental==0.3.5rc1",
+    "langchain-huggingface==0.1.2",
+    "langchain-openai==0.3.7",
+    "langchain-text-splitters==0.3.6",
+    "pypdf>=5.3.1",
+    "rapidocr-onnxruntime>=1.4.4",
+]
